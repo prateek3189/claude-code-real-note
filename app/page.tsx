@@ -13,7 +13,7 @@ export default function Home() {
         <div className='mt-8 flex justify-center gap-4'>
           <Link
             href='/authenticate'
-            className='rounded-lg bg-gray-900 px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200'
+            className='rounded-lg bg-violet-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-violet-800 dark:bg-violet-600 dark:hover:bg-violet-500'
           >
             Get started
           </Link>

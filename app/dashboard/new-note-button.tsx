@@ -18,7 +18,7 @@ export function NewNoteButton() {
     <button
       onClick={handleClick}
       disabled={loading}
-      className='rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-700 disabled:opacity-50 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200'
+      className='rounded-lg bg-violet-700 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-violet-800 disabled:opacity-50 dark:bg-violet-600 dark:hover:bg-violet-500'
     >
       {loading ? 'Creating…' : 'New note'}
     </button>

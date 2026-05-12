@@ -46,8 +46,8 @@ export function ShareToggle({ noteId, initialIsPublic, initialPublicSlug }: Prop
           disabled={loading}
           role='switch'
           aria-checked={isPublic}
-          className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 disabled:opacity-50 dark:focus:ring-white dark:focus:ring-offset-gray-950 ${
-            isPublic ? 'bg-gray-900 dark:bg-white' : 'bg-gray-200 dark:bg-gray-700'
+          className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors focus:outline-none focus:ring-2 focus:ring-violet-700 focus:ring-offset-2 disabled:opacity-50 dark:focus:ring-violet-400 dark:focus:ring-offset-gray-950 ${
+            isPublic ? 'bg-violet-700 dark:bg-violet-600' : 'bg-gray-200 dark:bg-gray-700'
           }`}
         >
           <span

@@ -12,7 +12,7 @@ export function EditorToolbar({ editor }: Props) {
   const btn = (active: boolean) =>
     `rounded px-2 py-1 text-xs font-medium transition-colors select-none ${
       active
-        ? 'bg-gray-900 text-white dark:bg-white dark:text-gray-900'
+        ? 'bg-violet-700 text-white dark:bg-violet-600 dark:text-white'
         : 'text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800'
     }`;
 

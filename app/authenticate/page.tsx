@@ -6,7 +6,7 @@ import { Suspense, useState } from 'react';
 import { authClient } from '@/lib/auth-client';
 
 const inputCls =
-  'mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 transition-colors focus-visible:border-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:placeholder:text-gray-500 dark:focus-visible:border-gray-400 dark:focus-visible:ring-gray-400';
+  'mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 transition-colors focus-visible:border-violet-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-violet-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:placeholder:text-gray-500 dark:focus-visible:border-violet-400 dark:focus-visible:ring-violet-400';
 
 const labelCls = 'block text-sm font-medium text-gray-700 dark:text-gray-300';
 
@@ -115,7 +115,7 @@ function AuthForm() {
           <button
             type='submit'
             disabled={loading}
-            className='w-full rounded-lg bg-gray-900 py-2.5 text-sm font-medium text-white transition-colors hover:bg-gray-700 disabled:opacity-50 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200'
+            className='w-full rounded-lg bg-violet-700 py-2.5 text-sm font-medium text-white transition-colors hover:bg-violet-600 disabled:opacity-50 dark:bg-violet-600 dark:hover:bg-violet-500'
           >
             {loading ? 'Please wait…' : mode === 'login' ? 'Sign in' : 'Create account'}
           </button>
@@ -125,7 +125,7 @@ function AuthForm() {
           {mode === 'login' ? "Don't have an account? " : 'Already have an account? '}
           <Link
             href={mode === 'login' ? '/authenticate?mode=register' : '/authenticate'}
-            className='font-medium text-gray-900 underline underline-offset-2 transition-colors hover:text-gray-600 dark:text-white dark:hover:text-gray-300'
+            className='font-medium text-violet-700 underline underline-offset-2 transition-colors hover:text-violet-600 dark:text-violet-400 dark:hover:text-violet-300'
           >
             {mode === 'login' ? 'Create one' : 'Sign in'}
           </Link>

@@ -1,0 +1,28 @@
+- generic [ref=e1]:
+    - button "Open Next.js Dev Tools" [ref=e14] [cursor=pointer]:
+        - img [ref=e15]
+    - alert [ref=e18]
+    - generic [ref=e52]:
+        - banner [ref=e53]:
+            - generic [ref=e54]:
+                - link "RealNote" [ref=e55] [cursor=pointer]:
+                    - /url: /dashboard
+                - button "Save note" [ref=e56]
+        - main [ref=e57]:
+            - generic [ref=e58]:
+                - textbox "Untitled" [ref=e59]: My First Test Note
+                - generic [ref=e60]:
+                    - generic [ref=e61]:
+                        - button "B" [ref=e62]:
+                            - strong [ref=e63]: B
+                        - button "I" [ref=e64]:
+                            - emphasis [ref=e65]: I
+                        - button "H1" [ref=e67]
+                        - button "H2" [ref=e68]
+                        - button "H3" [ref=e69]
+                        - button "¶" [ref=e70]
+                        - button "≡" [ref=e72]
+                        - button "<>" [ref=e74]
+                        - button "</>" [ref=e75]
+                        - button "—" [ref=e77]
+                    - paragraph [ref=e80]: This is a test note with some content.

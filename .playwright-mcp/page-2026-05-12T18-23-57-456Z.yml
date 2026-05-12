@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+    - button "Open Next.js Dev Tools" [ref=e14] [cursor=pointer]:
+        - img [ref=e15]
+    - alert [ref=e18]
+    - generic [ref=e40]:
+        - banner [ref=e41]:
+            - generic [ref=e42]:
+                - link "RealNote" [ref=e43] [cursor=pointer]:
+                    - /url: /dashboard
+                - button "Sign out" [ref=e44]
+        - main [ref=e45]:
+            - generic [ref=e46]:
+                - heading "My Notes" [level=1] [ref=e47]
+                - link "New note" [ref=e48] [cursor=pointer]:
+                    - /url: /notes/new
+            - generic [ref=e49]:
+                - paragraph [ref=e50]: No notes yet.
+                - paragraph [ref=e51]: Create your first note to get started.

@@ -1,0 +1,25 @@
+- generic [ref=e1]:
+    - button "Open Next.js Dev Tools" [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+    - alert [ref=e40]
+    - generic [ref=e41]:
+        - banner [ref=e42]:
+            - generic [ref=e43]:
+                - link "RealNote" [ref=e44] [cursor=pointer]:
+                    - /url: /dashboard
+                - generic [ref=e45]:
+                    - link "Edit" [ref=e46] [cursor=pointer]:
+                        - /url: /notes/65c9eaa7-5900-43d9-8cae-dceb6facd5b8/edit
+                    - button "Delete" [ref=e47]
+                    - dialog [ref=e58]:
+                        - heading "Delete note?" [level=2] [ref=e59]
+                        - paragraph [ref=e60]: This action cannot be undone.
+                        - generic [ref=e61]:
+                            - button "Cancel" [active] [ref=e62]
+                            - button "Delete" [ref=e63]
+        - main [ref=e48]:
+            - heading "Note to Delete" [level=1] [ref=e49]
+            - generic [ref=e52]:
+                - switch [ref=e53] [cursor=pointer]
+                - generic [ref=e54]: Public sharing off
+            - paragraph [ref=e57]

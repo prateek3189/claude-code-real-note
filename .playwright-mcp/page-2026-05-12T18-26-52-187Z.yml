@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+    - button "Open Next.js Dev Tools" [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+    - alert [ref=e40]
+    - generic [ref=e94]:
+        - banner [ref=e95]:
+            - generic [ref=e96]:
+                - link "RealNote" [ref=e97] [cursor=pointer]:
+                    - /url: /dashboard
+                - button "Sign out" [ref=e98]
+        - main [ref=e99]:
+            - generic [ref=e100]:
+                - heading "My Notes" [level=1] [ref=e101]
+                - link "New note" [ref=e102] [cursor=pointer]:
+                    - /url: /notes/new
+            - list [ref=e103]:
+                - listitem [ref=e104]:
+                    - link "My Updated Test Note May 12, 2026" [ref=e105] [cursor=pointer]:
+                        - /url: /notes/dc376060-f230-469a-80a6-a563af0ad6d3
+                        - generic [ref=e106]:
+                            - paragraph [ref=e107]: My Updated Test Note
+                            - paragraph [ref=e108]: May 12, 2026

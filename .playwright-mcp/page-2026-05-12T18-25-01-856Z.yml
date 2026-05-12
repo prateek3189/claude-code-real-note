@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+    - main [ref=e3]:
+        - heading "My First Test Note" [level=1] [ref=e4]
+        - paragraph [ref=e5]: Shared publicly
+        - paragraph [ref=e8]:
+            - strong [ref=e10]: Bold text here
+            - text: .
+    - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer]:
+        - img [ref=e17]
+    - alert [ref=e20]

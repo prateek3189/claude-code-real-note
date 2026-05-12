@@ -1,0 +1,21 @@
+- generic [active] [ref=e1]:
+    - button "Open Next.js Dev Tools" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+    - alert [ref=e48]
+    - generic [ref=e49]:
+        - banner [ref=e50]:
+            - generic [ref=e51]:
+                - link "RealNote" [ref=e52] [cursor=pointer]:
+                    - /url: /dashboard
+                - generic [ref=e53]:
+                    - link "Edit" [ref=e54] [cursor=pointer]:
+                        - /url: /notes/dc376060-f230-469a-80a6-a563af0ad6d3/edit
+                    - button "Delete" [ref=e55]
+        - main [ref=e56]:
+            - heading "My Updated Test Note" [level=1] [ref=e57]
+            - generic [ref=e60]:
+                - switch [ref=e61] [cursor=pointer]
+                - generic [ref=e62]: Public sharing off
+            - paragraph [ref=e65]:
+                - strong [ref=e67]: Bold text here
+                - text: .

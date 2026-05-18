@@ -48,8 +48,8 @@ function AuthForm() {
   }
 
   return (
-    <div className='flex min-h-screen items-center justify-center bg-gray-50 px-4 dark:bg-gray-950'>
-      <div className='w-full max-w-sm space-y-6 rounded-xl border border-gray-200 bg-white p-8 shadow-sm dark:border-gray-800 dark:bg-gray-900'>
+    <div className='flex min-h-screen items-center justify-center bg-violet-50 px-4 dark:bg-violet-950'>
+      <div className='w-full max-w-sm space-y-6 rounded-xl border border-violet-100 bg-white p-8 shadow-sm dark:border-violet-900 dark:bg-violet-900/40'>
         <div>
           <h1 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
             {mode === 'login' ? 'Sign in' : 'Create account'}

@@ -21,7 +21,7 @@ export default async function DashboardPage() {
   const notes = getNotesByUser(session.user.id);
 
   return (
-    <div className='min-h-screen bg-gray-50 dark:bg-gray-950'>
+    <div className='min-h-screen bg-violet-50 dark:bg-violet-950'>
       <Header>
         <SignOutButton />
       </Header>

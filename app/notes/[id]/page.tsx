@@ -17,7 +17,7 @@ export default async function NotePage({ params }: { params: Promise<{ id: strin
   if (!note) notFound();
 
   return (
-    <div className='min-h-screen bg-white dark:bg-gray-950'>
+    <div className='min-h-screen bg-violet-50 dark:bg-violet-950'>
       <Header>
         <div className='flex gap-3'>
           <Link

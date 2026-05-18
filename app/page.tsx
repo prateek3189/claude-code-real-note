@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center bg-white px-4 dark:bg-gray-950'>
+    <div className='flex min-h-screen flex-col items-center justify-center bg-violet-50 px-4 dark:bg-violet-950'>
       <div className='max-w-xl text-center'>
         <h1 className='text-5xl font-bold tracking-tight text-gray-900 dark:text-white'>
           RealNote
